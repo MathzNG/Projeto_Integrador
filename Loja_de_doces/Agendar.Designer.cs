@@ -28,163 +28,254 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.lblPedido = new System.Windows.Forms.Label();
+            this.txtPedido = new System.Windows.Forms.TextBox();
+            this.lblNome = new System.Windows.Forms.Label();
+            this.lblEndereço = new System.Windows.Forms.Label();
+            this.lblCelular = new System.Windows.Forms.Label();
+            this.txtNome = new System.Windows.Forms.TextBox();
+            this.txtNdacasa = new System.Windows.Forms.TextBox();
+            this.txtEndereco = new System.Windows.Forms.TextBox();
+            this.lblNdacasa = new System.Windows.Forms.Label();
+            this.txtCelular = new System.Windows.Forms.TextBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtpPrazo = new System.Windows.Forms.DateTimePicker();
+            this.lblQuantidade = new System.Windows.Forms.Label();
+            this.lblDescrição = new System.Windows.Forms.Label();
+            this.txtDescricao = new System.Windows.Forms.TextBox();
+            this.ltbQuantidade = new System.Windows.Forms.ListBox();
+            this.rdbEntrega = new System.Windows.Forms.RadioButton();
+            this.rdbRetirar = new System.Windows.Forms.RadioButton();
+            this.btnNovo = new System.Windows.Forms.Button();
+            this.btnCadastrar = new System.Windows.Forms.Button();
+            this.btnLimpar = new System.Windows.Forms.Button();
+            this.btnAlterar = new System.Windows.Forms.Button();
+            this.btnExcluir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // lblPedido
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(30, 38);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Pedido";
+            this.lblPedido.AutoSize = true;
+            this.lblPedido.Location = new System.Drawing.Point(30, 38);
+            this.lblPedido.Name = "lblPedido";
+            this.lblPedido.Size = new System.Drawing.Size(40, 13);
+            this.lblPedido.TabIndex = 0;
+            this.lblPedido.Text = "Pedido";
             // 
-            // textBox1
+            // txtPedido
             // 
-            this.textBox1.Location = new System.Drawing.Point(82, 35);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 1;
+            this.txtPedido.Location = new System.Drawing.Point(82, 35);
+            this.txtPedido.Name = "txtPedido";
+            this.txtPedido.Size = new System.Drawing.Size(100, 20);
+            this.txtPedido.TabIndex = 1;
             // 
-            // label2
+            // lblNome
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(228, 38);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Nome";
+            this.lblNome.AutoSize = true;
+            this.lblNome.Location = new System.Drawing.Point(228, 38);
+            this.lblNome.Name = "lblNome";
+            this.lblNome.Size = new System.Drawing.Size(35, 13);
+            this.lblNome.TabIndex = 2;
+            this.lblNome.Text = "Nome";
             // 
-            // label3
+            // lblEndereço
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(30, 98);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 13);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Endereço";
+            this.lblEndereço.AutoSize = true;
+            this.lblEndereço.Location = new System.Drawing.Point(30, 98);
+            this.lblEndereço.Name = "lblEndereço";
+            this.lblEndereço.Size = new System.Drawing.Size(53, 13);
+            this.lblEndereço.TabIndex = 3;
+            this.lblEndereço.Text = "Endereço";
             // 
-            // label4
+            // lblCelular
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(36, 165);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(34, 13);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Prazo";
+            this.lblCelular.AutoSize = true;
+            this.lblCelular.Location = new System.Drawing.Point(228, 162);
+            this.lblCelular.Name = "lblCelular";
+            this.lblCelular.Size = new System.Drawing.Size(39, 13);
+            this.lblCelular.TabIndex = 5;
+            this.lblCelular.Text = "Celular";
             // 
-            // label5
+            // txtNome
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(228, 162);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(39, 13);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Celular";
+            this.txtNome.Location = new System.Drawing.Point(287, 35);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(403, 20);
+            this.txtNome.TabIndex = 7;
             // 
-            // label6
+            // txtNdacasa
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 232);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(55, 13);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "Descrição";
+            this.txtNdacasa.Location = new System.Drawing.Point(536, 91);
+            this.txtNdacasa.Name = "txtNdacasa";
+            this.txtNdacasa.Size = new System.Drawing.Size(130, 20);
+            this.txtNdacasa.TabIndex = 8;
             // 
-            // textBox2
+            // txtEndereco
             // 
-            this.textBox2.Location = new System.Drawing.Point(287, 35);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(276, 20);
-            this.textBox2.TabIndex = 7;
+            this.txtEndereco.Location = new System.Drawing.Point(89, 95);
+            this.txtEndereco.Name = "txtEndereco";
+            this.txtEndereco.Size = new System.Drawing.Size(318, 20);
+            this.txtEndereco.TabIndex = 10;
             // 
-            // textBox3
+            // lblNdacasa
             // 
-            this.textBox3.Location = new System.Drawing.Point(487, 95);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(130, 20);
-            this.textBox3.TabIndex = 8;
+            this.lblNdacasa.AutoSize = true;
+            this.lblNdacasa.Location = new System.Drawing.Point(474, 94);
+            this.lblNdacasa.Name = "lblNdacasa";
+            this.lblNdacasa.Size = new System.Drawing.Size(60, 13);
+            this.lblNdacasa.TabIndex = 11;
+            this.lblNdacasa.Text = "N° da casa";
             // 
-            // textBox4
+            // txtCelular
             // 
-            this.textBox4.Location = new System.Drawing.Point(89, 162);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 9;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(89, 95);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(318, 20);
-            this.textBox5.TabIndex = 10;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(428, 98);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(44, 13);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "Número";
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(287, 162);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(120, 20);
-            this.textBox6.TabIndex = 12;
+            this.txtCelular.Location = new System.Drawing.Point(287, 162);
+            this.txtCelular.Name = "txtCelular";
+            this.txtCelular.Size = new System.Drawing.Size(120, 20);
+            this.txtCelular.TabIndex = 12;
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(13, 248);
+            this.listBox1.Location = new System.Drawing.Point(12, 319);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(603, 160);
+            this.listBox1.Size = new System.Drawing.Size(708, 160);
             this.listBox1.TabIndex = 13;
             // 
-            // dateTimePicker1
+            // dtpPrazo
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(449, 162);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(144, 20);
-            this.dateTimePicker1.TabIndex = 14;
+            this.dtpPrazo.Location = new System.Drawing.Point(480, 159);
+            this.dtpPrazo.Name = "dtpPrazo";
+            this.dtpPrazo.Size = new System.Drawing.Size(144, 20);
+            this.dtpPrazo.TabIndex = 14;
+            // 
+            // lblQuantidade
+            // 
+            this.lblQuantidade.AutoSize = true;
+            this.lblQuantidade.Location = new System.Drawing.Point(30, 165);
+            this.lblQuantidade.Name = "lblQuantidade";
+            this.lblQuantidade.Size = new System.Drawing.Size(62, 13);
+            this.lblQuantidade.TabIndex = 4;
+            this.lblQuantidade.Text = "Quantidade";
+            // 
+            // lblDescrição
+            // 
+            this.lblDescrição.AutoSize = true;
+            this.lblDescrição.Location = new System.Drawing.Point(114, 227);
+            this.lblDescrição.Name = "lblDescrição";
+            this.lblDescrição.Size = new System.Drawing.Size(55, 13);
+            this.lblDescrição.TabIndex = 15;
+            this.lblDescrição.Text = "Descrição";
+            // 
+            // txtDescricao
+            // 
+            this.txtDescricao.Location = new System.Drawing.Point(167, 224);
+            this.txtDescricao.Name = "txtDescricao";
+            this.txtDescricao.Size = new System.Drawing.Size(426, 20);
+            this.txtDescricao.TabIndex = 16;
+            // 
+            // ltbQuantidade
+            // 
+            this.ltbQuantidade.FormattingEnabled = true;
+            this.ltbQuantidade.Location = new System.Drawing.Point(98, 162);
+            this.ltbQuantidade.Name = "ltbQuantidade";
+            this.ltbQuantidade.Size = new System.Drawing.Size(120, 30);
+            this.ltbQuantidade.TabIndex = 17;
+            // 
+            // rdbEntrega
+            // 
+            this.rdbEntrega.AutoSize = true;
+            this.rdbEntrega.Location = new System.Drawing.Point(25, 255);
+            this.rdbEntrega.Name = "rdbEntrega";
+            this.rdbEntrega.Size = new System.Drawing.Size(62, 17);
+            this.rdbEntrega.TabIndex = 18;
+            this.rdbEntrega.TabStop = true;
+            this.rdbEntrega.Text = "Entrega";
+            this.rdbEntrega.UseVisualStyleBackColor = true;
+            // 
+            // rdbRetirar
+            // 
+            this.rdbRetirar.AutoSize = true;
+            this.rdbRetirar.Location = new System.Drawing.Point(25, 285);
+            this.rdbRetirar.Name = "rdbRetirar";
+            this.rdbRetirar.Size = new System.Drawing.Size(56, 17);
+            this.rdbRetirar.TabIndex = 19;
+            this.rdbRetirar.TabStop = true;
+            this.rdbRetirar.Text = "Retirar";
+            this.rdbRetirar.UseVisualStyleBackColor = true;
+            // 
+            // btnNovo
+            // 
+            this.btnNovo.Location = new System.Drawing.Point(12, 495);
+            this.btnNovo.Name = "btnNovo";
+            this.btnNovo.Size = new System.Drawing.Size(75, 30);
+            this.btnNovo.TabIndex = 20;
+            this.btnNovo.Text = "Novo";
+            this.btnNovo.UseVisualStyleBackColor = true;
+            // 
+            // btnCadastrar
+            // 
+            this.btnCadastrar.Location = new System.Drawing.Point(167, 495);
+            this.btnCadastrar.Name = "btnCadastrar";
+            this.btnCadastrar.Size = new System.Drawing.Size(75, 30);
+            this.btnCadastrar.TabIndex = 21;
+            this.btnCadastrar.Text = "Cadastrar";
+            this.btnCadastrar.UseVisualStyleBackColor = true;
+            // 
+            // btnLimpar
+            // 
+            this.btnLimpar.Location = new System.Drawing.Point(318, 495);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(75, 30);
+            this.btnLimpar.TabIndex = 22;
+            this.btnLimpar.Text = "Limpar";
+            this.btnLimpar.UseVisualStyleBackColor = true;
+            // 
+            // btnAlterar
+            // 
+            this.btnAlterar.Location = new System.Drawing.Point(480, 495);
+            this.btnAlterar.Name = "btnAlterar";
+            this.btnAlterar.Size = new System.Drawing.Size(75, 30);
+            this.btnAlterar.TabIndex = 23;
+            this.btnAlterar.Text = "Alterar";
+            this.btnAlterar.UseVisualStyleBackColor = true;
+            // 
+            // btnExcluir
+            // 
+            this.btnExcluir.Location = new System.Drawing.Point(645, 495);
+            this.btnExcluir.Name = "btnExcluir";
+            this.btnExcluir.Size = new System.Drawing.Size(75, 30);
+            this.btnExcluir.TabIndex = 24;
+            this.btnExcluir.Text = "Excluir";
+            this.btnExcluir.UseVisualStyleBackColor = true;
             // 
             // Agendar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(629, 424);
-            this.Controls.Add(this.dateTimePicker1);
+            this.ClientSize = new System.Drawing.Size(732, 537);
+            this.Controls.Add(this.btnExcluir);
+            this.Controls.Add(this.btnAlterar);
+            this.Controls.Add(this.btnLimpar);
+            this.Controls.Add(this.btnCadastrar);
+            this.Controls.Add(this.btnNovo);
+            this.Controls.Add(this.rdbRetirar);
+            this.Controls.Add(this.rdbEntrega);
+            this.Controls.Add(this.ltbQuantidade);
+            this.Controls.Add(this.txtDescricao);
+            this.Controls.Add(this.lblDescrição);
+            this.Controls.Add(this.dtpPrazo);
             this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtCelular);
+            this.Controls.Add(this.lblNdacasa);
+            this.Controls.Add(this.txtEndereco);
+            this.Controls.Add(this.txtNdacasa);
+            this.Controls.Add(this.txtNome);
+            this.Controls.Add(this.lblCelular);
+            this.Controls.Add(this.lblQuantidade);
+            this.Controls.Add(this.lblEndereço);
+            this.Controls.Add(this.lblNome);
+            this.Controls.Add(this.txtPedido);
+            this.Controls.Add(this.lblPedido);
             this.Name = "Agendar";
             this.Text = "Agendar";
             this.ResumeLayout(false);
@@ -194,20 +285,28 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label lblPedido;
+        private System.Windows.Forms.TextBox txtPedido;
+        private System.Windows.Forms.Label lblNome;
+        private System.Windows.Forms.Label lblEndereço;
+        private System.Windows.Forms.Label lblCelular;
+        private System.Windows.Forms.TextBox txtNome;
+        private System.Windows.Forms.TextBox txtNdacasa;
+        private System.Windows.Forms.TextBox txtEndereco;
+        private System.Windows.Forms.Label lblNdacasa;
+        private System.Windows.Forms.TextBox txtCelular;
         private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtpPrazo;
+        private System.Windows.Forms.Label lblQuantidade;
+        private System.Windows.Forms.Label lblDescrição;
+        private System.Windows.Forms.TextBox txtDescricao;
+        private System.Windows.Forms.ListBox ltbQuantidade;
+        private System.Windows.Forms.RadioButton rdbEntrega;
+        private System.Windows.Forms.RadioButton rdbRetirar;
+        private System.Windows.Forms.Button btnNovo;
+        private System.Windows.Forms.Button btnCadastrar;
+        private System.Windows.Forms.Button btnLimpar;
+        private System.Windows.Forms.Button btnAlterar;
+        private System.Windows.Forms.Button btnExcluir;
     }
 }

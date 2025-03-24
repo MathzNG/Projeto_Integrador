@@ -29,42 +29,39 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panelMenu = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblMenu = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.ptbLogo = new System.Windows.Forms.PictureBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.panel1.SuspendLayout();
+            this.pcbMenu = new System.Windows.Forms.PictureBox();
+            this.btnSair = new System.Windows.Forms.Button();
+            this.btnProdutos = new System.Windows.Forms.Button();
+            this.btnPedidos = new System.Windows.Forms.Button();
+            this.btnAgendar = new System.Windows.Forms.Button();
+            this.ltbPedidos = new System.Windows.Forms.ListBox();
+            this.panelMenu.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ptbLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbMenu)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel1
+            // panelMenu
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(197, 450);
-            this.panel1.TabIndex = 0;
+            this.panelMenu.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.panelMenu.Controls.Add(this.panel2);
+            this.panelMenu.Controls.Add(this.btnSair);
+            this.panelMenu.Controls.Add(this.btnProdutos);
+            this.panelMenu.Controls.Add(this.btnPedidos);
+            this.panelMenu.Controls.Add(this.btnAgendar);
+            this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelMenu.Location = new System.Drawing.Point(0, 0);
+            this.panelMenu.Name = "panelMenu";
+            this.panelMenu.Size = new System.Drawing.Size(197, 550);
+            this.panelMenu.TabIndex = 0;
+            this.panelMenu.UseWaitCursor = true;
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.lblMenu);
-            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Controls.Add(this.pcbMenu);
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(196, 103);
@@ -81,116 +78,103 @@
             this.lblMenu.TabIndex = 1;
             this.lblMenu.Text = "Menu";
             // 
-            // pictureBox1
+            // pcbMenu
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(56, 74);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pcbMenu.Image = ((System.Drawing.Image)(resources.GetObject("pcbMenu.Image")));
+            this.pcbMenu.Location = new System.Drawing.Point(0, 12);
+            this.pcbMenu.Name = "pcbMenu";
+            this.pcbMenu.Size = new System.Drawing.Size(56, 74);
+            this.pcbMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pcbMenu.TabIndex = 0;
+            this.pcbMenu.TabStop = false;
+            this.pcbMenu.UseWaitCursor = true;
             // 
-            // button5
+            // btnSair
             // 
-            this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.Location = new System.Drawing.Point(126, 408);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(59, 30);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Sair";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnSair.ForeColor = System.Drawing.Color.Black;
+            this.btnSair.Location = new System.Drawing.Point(125, 508);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(59, 30);
+            this.btnSair.TabIndex = 4;
+            this.btnSair.Text = "Sair";
+            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.UseWaitCursor = true;
             // 
-            // button4
+            // btnProdutos
             // 
-            this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(0, 245);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(197, 38);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Produtos";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnProdutos.ForeColor = System.Drawing.Color.Black;
+            this.btnProdutos.Location = new System.Drawing.Point(0, 313);
+            this.btnProdutos.Name = "btnProdutos";
+            this.btnProdutos.Size = new System.Drawing.Size(197, 38);
+            this.btnProdutos.TabIndex = 3;
+            this.btnProdutos.Text = "Produtos";
+            this.btnProdutos.UseVisualStyleBackColor = true;
+            this.btnProdutos.UseWaitCursor = true;
             // 
-            // button3
+            // btnPedidos
             // 
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(0, 201);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(197, 38);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Pedidos";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnPedidos.BackColor = System.Drawing.Color.Transparent;
+            this.btnPedidos.ForeColor = System.Drawing.Color.Black;
+            this.btnPedidos.Location = new System.Drawing.Point(0, 246);
+            this.btnPedidos.Name = "btnPedidos";
+            this.btnPedidos.Size = new System.Drawing.Size(197, 38);
+            this.btnPedidos.TabIndex = 2;
+            this.btnPedidos.Text = "Pedidos";
+            this.btnPedidos.UseVisualStyleBackColor = false;
+            this.btnPedidos.UseWaitCursor = true;
             // 
-            // button2
+            // btnAgendar
             // 
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(0, 157);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(197, 38);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Agendar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnAgendar.ForeColor = System.Drawing.Color.Black;
+            this.btnAgendar.Location = new System.Drawing.Point(0, 180);
+            this.btnAgendar.Name = "btnAgendar";
+            this.btnAgendar.Size = new System.Drawing.Size(197, 38);
+            this.btnAgendar.TabIndex = 1;
+            this.btnAgendar.Text = "Agendar";
+            this.btnAgendar.UseVisualStyleBackColor = true;
+            this.btnAgendar.UseWaitCursor = true;
             // 
-            // button1
+            // ltbPedidos
             // 
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(0, 113);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(197, 38);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Home";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // ptbLogo
-            // 
-            this.ptbLogo.Location = new System.Drawing.Point(300, 0);
-            this.ptbLogo.Name = "ptbLogo";
-            this.ptbLogo.Size = new System.Drawing.Size(250, 131);
-            this.ptbLogo.TabIndex = 1;
-            this.ptbLogo.TabStop = false;
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(597, 39);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(191, 381);
-            this.listBox1.TabIndex = 2;
+            this.ltbPedidos.FormattingEnabled = true;
+            this.ltbPedidos.Location = new System.Drawing.Point(653, 39);
+            this.ltbPedidos.Name = "ltbPedidos";
+            this.ltbPedidos.Size = new System.Drawing.Size(208, 472);
+            this.ltbPedidos.TabIndex = 2;
+            this.ltbPedidos.UseWaitCursor = true;
+            this.ltbPedidos.Visible = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.ptbLogo);
-            this.Controls.Add(this.panel1);
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ClientSize = new System.Drawing.Size(892, 550);
+            this.Controls.Add(this.ltbPedidos);
+            this.Controls.Add(this.panelMenu);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.Name = "Form1";
             this.Text = "Form1";
-            this.panel1.ResumeLayout(false);
+            this.UseWaitCursor = true;
+            this.panelMenu.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ptbLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbMenu)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panelMenu;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pcbMenu;
+        private System.Windows.Forms.Button btnSair;
+        private System.Windows.Forms.Button btnProdutos;
+        private System.Windows.Forms.Button btnPedidos;
+        private System.Windows.Forms.Button btnAgendar;
         private System.Windows.Forms.Label lblMenu;
-        private System.Windows.Forms.PictureBox ptbLogo;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox ltbPedidos;
     }
 }
 

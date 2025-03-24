@@ -16,4 +16,10 @@ namespace Loja_de_doces
         {
             InitializeComponent();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            
+        }
+    }
 }
