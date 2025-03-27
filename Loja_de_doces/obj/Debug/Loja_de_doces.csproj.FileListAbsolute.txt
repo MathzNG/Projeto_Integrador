@@ -20,3 +20,4 @@ C:\Users\matheus.nguedes\Documents\Visual Studio 2022\Projeto_Integrador\Loja_de
 C:\Users\matheus.nguedes\Documents\Visual Studio 2022\Projeto_Integrador\Loja_de_doces\obj\Debug\Loja_de_doces.csproj.CoreCompileInputs.cache
 C:\Users\matheus.nguedes\Documents\Visual Studio 2022\Projeto_Integrador\Loja_de_doces\obj\Debug\Loja_de_doces.exe
 C:\Users\matheus.nguedes\Documents\Visual Studio 2022\Projeto_Integrador\Loja_de_doces\obj\Debug\Loja_de_doces.pdb
+C:\Users\matheus.nguedes\Documents\Visual Studio 2022\Projeto_Integrador\Loja_de_doces\obj\Debug\Loja_de_doces.Produtos.resources

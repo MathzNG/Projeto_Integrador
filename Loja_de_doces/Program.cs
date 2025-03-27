@@ -16,7 +16,7 @@ namespace Loja_de_doces
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Pedidos());
+            Application.Run(new Form1());
         }
     }
 }
