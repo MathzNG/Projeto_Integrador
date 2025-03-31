@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2022\\Projeto_Integrador\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A15FB5E9-0F9D-4345-B3B6-A8DD61C2C34F}|Loja_de_doces\\Loja_de_doces.csproj|c:\\users\\matheus.nguedes\\documents\\visual studio 2022\\projeto_integrador\\loja_de_doces\\pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A15FB5E9-0F9D-4345-B3B6-A8DD61C2C34F}|Loja_de_doces\\Loja_de_doces.csproj|solutionrelative:loja_de_doces\\pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A15FB5E9-0F9D-4345-B3B6-A8DD61C2C34F}|Loja_de_doces\\Loja_de_doces.csproj|c:\\users\\matheus.nguedes\\documents\\visual studio 2022\\projeto_integrador\\loja_de_doces\\frmpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A15FB5E9-0F9D-4345-B3B6-A8DD61C2C34F}|Loja_de_doces\\Loja_de_doces.csproj|solutionrelative:loja_de_doces\\frmpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15FB5E9-0F9D-4345-B3B6-A8DD61C2C34F}|Loja_de_doces\\Loja_de_doces.csproj|c:\\users\\matheus.nguedes\\documents\\visual studio 2022\\projeto_integrador\\loja_de_doces\\frmprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A15FB5E9-0F9D-4345-B3B6-A8DD61C2C34F}|Loja_de_doces\\Loja_de_doces.csproj|solutionrelative:loja_de_doces\\frmprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15FB5E9-0F9D-4345-B3B6-A8DD61C2C34F}|Loja_de_doces\\Loja_de_doces.csproj|c:\\users\\matheus.nguedes\\documents\\visual studio 2022\\projeto_integrador\\loja_de_doces\\frmprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A15FB5E9-0F9D-4345-B3B6-A8DD61C2C34F}|Loja_de_doces\\Loja_de_doces.csproj|solutionrelative:loja_de_doces\\frmprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Pedidos.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2022\\Projeto_Integrador\\Loja_de_doces\\Pedidos.cs",
-              "RelativeDocumentMoniker": "Loja_de_doces\\Pedidos.cs",
-              "ToolTip": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2022\\Projeto_Integrador\\Loja_de_doces\\Pedidos.cs [Design]",
-              "RelativeToolTip": "Loja_de_doces\\Pedidos.cs [Design]",
+              "Title": "frmPedidos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2022\\Projeto_Integrador\\Loja_de_doces\\frmPedidos.cs",
+              "RelativeDocumentMoniker": "Loja_de_doces\\frmPedidos.cs",
+              "ToolTip": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2022\\Projeto_Integrador\\Loja_de_doces\\frmPedidos.cs [Design]",
+              "RelativeToolTip": "Loja_de_doces\\frmPedidos.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T19:32:17.355Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-03-31T17:54:41.859Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmProdutos.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2022\\Projeto_Integrador\\Loja_de_doces\\frmProdutos.cs",
+              "RelativeDocumentMoniker": "Loja_de_doces\\frmProdutos.cs",
+              "ToolTip": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2022\\Projeto_Integrador\\Loja_de_doces\\frmProdutos.cs",
+              "RelativeToolTip": "Loja_de_doces\\frmProdutos.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvyUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:52:50.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmProdutos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2022\\Projeto_Integrador\\Loja_de_doces\\frmProdutos.cs",
+              "RelativeDocumentMoniker": "Loja_de_doces\\frmProdutos.cs",
+              "ToolTip": "C:\\Users\\matheus.nguedes\\Documents\\Visual Studio 2022\\Projeto_Integrador\\Loja_de_doces\\frmProdutos.cs [Design]",
+              "RelativeToolTip": "Loja_de_doces\\frmProdutos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:52:21.797Z",
               "EditorCaption": " [Design]"
             }
           ]

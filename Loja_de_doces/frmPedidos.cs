@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace Loja_de_doces
 {
-    public partial class Form1 : Form
+    public partial class frmPedidos : Form
     {
-        public Form1()
+        public frmPedidos()
         {
             InitializeComponent();
-            
-        }
-       
-        private void button5_Click(object sender, EventArgs e)
-        {
-            
         }
     }
 }

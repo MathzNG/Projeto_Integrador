@@ -12,12 +12,12 @@ C:\Users\matheus.nguedes\Documents\Visual Studio 2022\Projeto_Integrador\Loja_de
 C:\Users\matheus.nguedes\Documents\Visual Studio 2022\Projeto_Integrador\Loja_de_doces\bin\Debug\Loja_de_doces.exe
 C:\Users\matheus.nguedes\Documents\Visual Studio 2022\Projeto_Integrador\Loja_de_doces\bin\Debug\Loja_de_doces.pdb
 C:\Users\matheus.nguedes\Documents\Visual Studio 2022\Projeto_Integrador\Loja_de_doces\obj\Debug\Loja_de_doces.csproj.AssemblyReference.cache
-C:\Users\matheus.nguedes\Documents\Visual Studio 2022\Projeto_Integrador\Loja_de_doces\obj\Debug\Loja_de_doces.Agendar.resources
-C:\Users\matheus.nguedes\Documents\Visual Studio 2022\Projeto_Integrador\Loja_de_doces\obj\Debug\Loja_de_doces.Form1.resources
-C:\Users\matheus.nguedes\Documents\Visual Studio 2022\Projeto_Integrador\Loja_de_doces\obj\Debug\Loja_de_doces.Pedidos.resources
 C:\Users\matheus.nguedes\Documents\Visual Studio 2022\Projeto_Integrador\Loja_de_doces\obj\Debug\Loja_de_doces.Properties.Resources.resources
 C:\Users\matheus.nguedes\Documents\Visual Studio 2022\Projeto_Integrador\Loja_de_doces\obj\Debug\Loja_de_doces.csproj.GenerateResource.cache
 C:\Users\matheus.nguedes\Documents\Visual Studio 2022\Projeto_Integrador\Loja_de_doces\obj\Debug\Loja_de_doces.csproj.CoreCompileInputs.cache
 C:\Users\matheus.nguedes\Documents\Visual Studio 2022\Projeto_Integrador\Loja_de_doces\obj\Debug\Loja_de_doces.exe
 C:\Users\matheus.nguedes\Documents\Visual Studio 2022\Projeto_Integrador\Loja_de_doces\obj\Debug\Loja_de_doces.pdb
-C:\Users\matheus.nguedes\Documents\Visual Studio 2022\Projeto_Integrador\Loja_de_doces\obj\Debug\Loja_de_doces.Produtos.resources
+C:\Users\matheus.nguedes\Documents\Visual Studio 2022\Projeto_Integrador\Loja_de_doces\obj\Debug\Loja_de_doces.frmTelainicial.resources
+C:\Users\matheus.nguedes\Documents\Visual Studio 2022\Projeto_Integrador\Loja_de_doces\obj\Debug\Loja_de_doces.frmAgendar.resources
+C:\Users\matheus.nguedes\Documents\Visual Studio 2022\Projeto_Integrador\Loja_de_doces\obj\Debug\Loja_de_doces.frmProdutos.resources
+C:\Users\matheus.nguedes\Documents\Visual Studio 2022\Projeto_Integrador\Loja_de_doces\obj\Debug\Loja_de_doces.frmPedidos.resources
